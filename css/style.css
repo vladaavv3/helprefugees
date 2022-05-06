@@ -90,42 +90,7 @@ a{
     }
 }
 
-@media(max-width:450px){
-    .hamburger{
-      display: block;
-    }
-  
-.hamburger.active .bar:nth-child(2){
-      opacity: 0;
-    }
-.hamburger.active .bar:nth-child(1){
-      transform: translateY(8px) rotate(45deg);
-    }
-.hamburger.active .bar:nth-child(3){
-      transform: translateY(-8px) rotate(-45deg);
-    }
-  
-.nav-menu{
-        position: fixed;
-        left: -100%;
-        top: 70px;
-        gap: 0;
-        flex-direction: column;
-        background-color: #000000;
-        width: 100%;
-        text-align: center;
-        transition: 0.3s;
-    }
-  
-.nav-item{
-        margin: 16px 0;
-        
-    }
-  
-.nav-menu.active{
-        left: 0;
-    }
-}
+
 
 body{
     background-image: url(https://wallpapermemory.com/uploads/217/sky-background-1080p-56922.jpg);
@@ -203,12 +168,6 @@ div{
     margin-bottom: 58px;
   }
 
-@media (max-width: 767px) {
-.footer .footer_text {
-    padding-top: 10px;
-    margin-bottom: 15px;
-    }
-}
 
 
 
